@@ -107,16 +107,12 @@ annotate makerspaceSrv.Loan with {
 annotate makerspaceSrv.Loan with @UI.Identification: [{ Value: personName }];
 annotate makerspaceSrv.Loan with {
   personName @title: 'Person Name';
-  loanPeriod @title: 'Loan Period';
-  startDate @title: 'Start Date';
-  endDate @title: 'End Date'
+  loanPeriod @title: 'Loan Period'
 };
 
 annotate makerspaceSrv.Loan with @UI.LineItem: [
     { $Type: 'UI.DataField', Value: personName },
     { $Type: 'UI.DataField', Value: loanPeriod },
-    { $Type: 'UI.DataField', Value: startDate },
-    { $Type: 'UI.DataField', Value: endDate },
     { $Type: 'UI.DataField', Label: 'Hardware Instance', Value: hardwareInstance_ID }
 ];
 
@@ -124,8 +120,6 @@ annotate makerspaceSrv.Loan with @UI.FieldGroup #Main: {
   $Type: 'UI.FieldGroupType', Data: [
     { $Type: 'UI.DataField', Value: personName },
     { $Type: 'UI.DataField', Value: loanPeriod },
-    { $Type: 'UI.DataField', Value: startDate },
-    { $Type: 'UI.DataField', Value: endDate },
     { $Type: 'UI.DataField', Label: 'Hardware Instance', Value: hardwareInstance_ID }
   ]
 };
@@ -137,3 +131,4 @@ annotate makerspaceSrv.Loan with {
 annotate makerspaceSrv.Loan with @UI.Facets: [
   { $Type: 'UI.ReferenceFacet', ID: 'Main', Label: 'General Information', Target: '@UI.FieldGroup#Main' }
 ];
+

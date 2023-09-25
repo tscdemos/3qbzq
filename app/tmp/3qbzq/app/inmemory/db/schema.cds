@@ -28,7 +28,6 @@ entity Loan {
   key ID: UUID;
   personName: String(200);
   loanPeriod: Integer;
-  startDate: Date;
-  endDate: Date;
   hardwareInstance: Association to HardwareInstance;
 }
+

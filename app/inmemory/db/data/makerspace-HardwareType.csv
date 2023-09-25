@@ -1,6 +1,1 @@
-ID;typeName;category_ID
-eb50d58f-2f9d-47c4-82cf-e274291e1140;FDM Printer;3ef42c64-b4e6-48e6-819d-c5b3d7db3ce7
-4120342a-1c9f-491a-8639-08a253ace58c;SLA Printer;3ef42c64-b4e6-48e6-819d-c5b3d7db3ce7
-c0479cb2-646c-4d40-8263-7dda48267cb8;CO2 Laser Cutter;8e3bb4e3-324c-4a89-be57-aab021a397e0
-1e5f6430-433b-4535-ba57-97a670e350e7;CNC Router;6325e445-6390-4a7a-bb0a-742acaf5cbdc
-e73b8b41-c375-4e3e-b366-6795492a3bd2;Soldering Station;3e471f69-7661-45b5-aa01-7e4a5ef7e647
+ID,typeName,category_ID

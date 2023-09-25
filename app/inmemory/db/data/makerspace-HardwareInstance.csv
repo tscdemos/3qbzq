@@ -1,6 +1,1 @@
-ID;serialNumber;storageLocation;acquisitionDate;acquisitionPrice;comments;type_ID;loan_ID
-fb53d4f0-6d74-43c7-80f6-3d4cd6f35318;SN001;Shelf 1;2021-06-27;500.00;Working fine;eb50d58f-2f9d-47c4-82cf-e274291e1140;2b2e487e-782f-4997-82ec-db03257cd515
-ec7dcfa8-9676-4136-87c8-74cbafb731f7;SN002;Shelf 2;2021-06-28;700.00;Needs maintenance;4120342a-1c9f-491a-8639-08a253ace58c;81dfaa76-0d64-4cbd-b62a-0001cc17b10f
-759abb48-7804-4bea-b569-e1b80cbc46b5;SN003;Shelf 3;2021-06-29;1000.00;Working fine;c0479cb2-646c-4d40-8263-7dda48267cb8;65abc635-b1c9-4c37-be2b-c9a9c3b89e2e
-3284074e-0b76-47e9-8e0d-c13db3e976d2;SN004;Shelf 4;2021-06-30;1500.00;Working fine;1e5f6430-433b-4535-ba57-97a670e350e7;4f49d8ed-ad3f-43a9-a263-dde40e062bca
-02296924-fa88-4a0c-88dc-3ef4556f7ce5;SN005;Shelf 5;2021-07-01;200.00;Needs maintenance;e73b8b41-c375-4e3e-b366-6795492a3bd2;55e8462c-84b6-49df-8301-684a4545ce29
+ID,serialNumber,storageLocation,acquisitionDate,acquisitionPrice,comments,type_ID,loan_ID
